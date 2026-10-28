@@ -3,7 +3,10 @@
 Homebrew casks for [Çentik](https://github.com/YusufEmreYazici/Centik), the free, open-source island for your MacBook notch.
 
 ```sh
+brew trust yusufemreyazici/tap
 brew install --cask yusufemreyazici/tap/centik
 ```
+
+Homebrew asks you to trust third-party taps once before it installs from them.
 
 Update with `brew upgrade --cask centik`. To remove Çentik and its data, run `brew uninstall --zap --cask centik`.
